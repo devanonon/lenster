@@ -6,7 +6,8 @@ const headers = [{ key: 'Cache-Control', value: 'public, max-age=3600' }];
 module.exports = withSentryConfig(
   {
     sentry: {
-      hideSourceMaps: true
+      hideSourceMaps: true,
+      autoInstrumentServerFunctions: false
     },
     reactStrictMode: false,
     trailingSlash: false,
