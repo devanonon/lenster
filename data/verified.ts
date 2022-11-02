@@ -1,5 +1,6 @@
 import { aaveMembers } from './aave-members';
 import { lensterMembers } from './lenster-members';
+import { xmtpMembers } from './xmtp-members';
 
 export const mainnetVerified = [
   '0x016ea6', // afriedman.lens
@@ -138,7 +139,8 @@ export const mainnetVerified = [
   '0x0210', // paris.lens
   '0x0160', // ethglobal.lens
   ...aaveMembers,
-  ...lensterMembers
+  ...lensterMembers,
+  ...xmtpMembers
 ];
 
 export const testnetVerified = [
